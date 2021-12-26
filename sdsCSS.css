@@ -859,6 +859,7 @@ ul {
 .toys {
     display: grid;
     position: absolute;
+    -webkit-user-drag: none;
     gap: 5px;
     grid-template-columns: repeat(9, 20px);
     grid-template-rows: repeat(12, 20px);
