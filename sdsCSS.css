@@ -870,7 +870,7 @@ ul {
 .toys .star {
     top: -30px;
     left: 10px;
-    position: relative;
+    position: fixed;
     border-right: 100px solid transparent;
     border-bottom: 70px solid gold;
     border-left: 100px solid transparent;
@@ -881,7 +881,7 @@ ul {
     border-bottom: 80px solid gold;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
-    position: absolute;
+    position: fixed;
     top: -45px;
     left: -65px;
     content: '';
@@ -889,7 +889,7 @@ ul {
 }
 
 .toys .star:after {
-    position: absolute;
+    position: fixed;
     top: 3px;
     left: -105px;
     border-right: 100px solid transparent;
@@ -905,7 +905,7 @@ ul {
     background-color: #f00;
     border-radius: 50%;
     z-index: 1;
-    position: absolute;
+    position: fixed;
 }
 
 .toys .b1,
